@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.column-full {
+  width: 100%;
+}
+
+.column-quarter {
+  width: 25%;
+}
+
+.column-third {
+  width: calc(100% / 3);
+}
+
+.column-two-third {
+  width: calc(100% - (100% / 3));
+}
