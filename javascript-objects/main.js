@@ -9,7 +9,7 @@ student.livesInIrvine = true;
 student.previousOccupation = 'astronaut';
 console.log('value of livesInIrvine: ' + student.livesInIrvine);
 console.log('value of previousOccupation: ' + student.previousOccupation);
-console.log(student);
+console.log('value of student: ', student);
 
 var vehicle = {
   make: 'Honda',
@@ -17,11 +17,11 @@ var vehicle = {
   year: 2010
 };
 
-vehicle.color = 'white';
-vehicle.isConvertible = true;
-console.log('value of vehicle.color: ' + vehicle.color);
-console.log('value of vehicle.isConvertible: ' + vehicle.isConvertible);
-console.log(vehicle);
+vehicle['color'] = 'white';
+vehicle['isConvertible'] = true;
+console.log('value of vehicle["color"]: ' + vehicle['color']);
+console.log('value of vehicle["isConvertible"]: ' + vehicle['isConvertible']);
+console.log('value of vehicle: ', student);
 
 var pet = {
   name: 'Ice Bear',
@@ -29,4 +29,4 @@ var pet = {
 };
 delete pet.name;
 delete pet.type;
-console.log(pet);
+console.log('value of pet: ', pet);
