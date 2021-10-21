@@ -10,11 +10,9 @@ header {
 }
 
 .header-container {
-  width: 1200px;
+  max-width: 1200px;
   height: 75px;
   margin: 0 auto;
-  display: flex;
-  align-items: center;
   justify-content: space-between;
 }
 
@@ -24,10 +22,6 @@ header {
 
 img {
   width: 100%;
-}
-
-nav {
-  flex-basis: 60%;
 }
 
 nav ul {
@@ -56,6 +50,12 @@ nav ul li:last-child {
 .container {
   max-width: 1200px;
   margin: 0 auto;
+}
+
+section,
+footer,
+.header-container {
+  padding: 0 70px;
   display: flex;
   align-items: center;
 }
@@ -73,6 +73,10 @@ nav ul li:last-child {
 
 .column-full {
   flex-basis: 100%;
+}
+
+.column-40 {
+  flex-basis: 40%;
 }
 
 .column-half {
@@ -141,9 +145,6 @@ button {
   text-align: center;
   padding: 75px 0;
   border-bottom: 1px solid #dfdede;
-}
-
-.prefer-canvas .container {
   flex-direction: column;
 }
 
@@ -166,7 +167,7 @@ button {
 }
 
 .ready-to-learn {
-  padding: 80px;
+  height: 200px;
 }
 
 .ready-to-learn .row {
@@ -195,16 +196,13 @@ button {
 
 .about-us {
   background-color: #525351;
-}
-
-.about-us .container {
   justify-content: space-between;
   height: 400px;
   display: flex;
   align-items: center;
 }
 
-.about-us .container .row {
+.about-us .row {
   justify-content: space-between;
 }
 
@@ -227,17 +225,14 @@ button {
 
 .privacy {
   background-color: #fafafa;
+  height: 100px;
 }
 
-.privacy .container {
-  height: 125px;
-}
-
-.privacy .container .row {
+.privacy .row {
   justify-content: flex-start;
 }
 
-.privacy .container .row ul {
+.privacy .row ul {
   display: flex;
   padding-left: 0;
   font-family: "Avenir", sans-serif;
@@ -245,6 +240,6 @@ button {
   font-weight: bold;
 }
 
-.privacy .container .row ul > li:last-child {
+.privacy .row ul > li:last-child {
   margin-left: 30px;
 }
