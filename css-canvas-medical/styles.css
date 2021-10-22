@@ -55,7 +55,9 @@ nav ul li:last-child {
   margin: 0 auto;
 }
 
-section {
+section,
+footer,
+.header-container {
   padding: 0 70px;
   display: flex;
   align-items: center;
@@ -198,6 +200,24 @@ button {
 .about-us {
   background-color: #525351;
   height: 400px;
+
+.ready-text {
+  position: absolute;
+  left: 0;
+}
+
+.get-started-btn {
+  position: absolute;
+  right: 0;
+}
+
+.about-us {
+  background-color: #525351;
+  justify-content: space-between;
+  height: 400px;
+  display: flex;
+  align-items: center;
+
 }
 
 .about-us .row {
