@@ -10,9 +10,12 @@ header {
 }
 
 .header-container {
-  max-width: 1200px;
+  width: 1200px;
   height: 75px;
+  padding: 0 70px;
   margin: 0 auto;
+  display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 
@@ -174,6 +177,16 @@ button {
   position: relative;
 }
 
+.ready-text {
+  position: absolute;
+  left: 0;
+}
+
+.get-started-btn {
+  position: absolute;
+  right: 0;
+}
+
 .ready-to-learn p {
   color: #6e6e6e;
 }
@@ -183,6 +196,10 @@ button {
   font-size: 2rem;
   margin-bottom: 1rem;
 }
+
+.about-us {
+  background-color: #525351;
+  height: 400px;
 
 .ready-text {
   position: absolute;
@@ -200,6 +217,7 @@ button {
   height: 400px;
   display: flex;
   align-items: center;
+
 }
 
 .about-us .row {
