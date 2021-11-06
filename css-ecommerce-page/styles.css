@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+}
+
+section {
+  position: relative;
+}
+
+section > h1 {
+  text-align: center;
+  padding: 10px;
+  font-size: 2rem;
+  font-weight: 500;
+  letter-spacing: -1px;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.col-20 {
+  flex-basis: 20%;
+  padding: 10px;
+  font-weight: 600;
+}
+
+.product-img {
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img1 {
+  background-image: url('images/dress1.jpeg');
+}
+
+.img2 {
+  background-image: url('images/ysl-bag.jpeg');
+}
+
+.img3 {
+  background-image: url('images/key.jpeg');
+}
+
+.img4 {
+  background-image: url('images/lv-bag.jpg');
+}
+
+.img5 {
+  background-image: url('images/dress2.jpeg');
+}
+
+img {
+  width: 100%;
+}
+
+.product-info,
+.price {
+  margin: 15px 0;
+}
+
+.size,
+.msrp {
+  color: #dbdbdb;
+}
+
+.msrp {
+  text-decoration: line-through;
+}
+
+.highlight {
+  background-color: #fdf2e8;
+  padding: 1px;
+  border-radius: 5px;
+}
