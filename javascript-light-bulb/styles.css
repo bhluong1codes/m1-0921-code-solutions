@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+}
+
+.container {
+  background-color: #111;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  background-color: #252525;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  box-shadow: 0 -20px 0 #0b0b0b;
+}
+
+.yellow-bg {
+  background-color: #fef9f1;
+  transition: 0.25s;
+}
+
+.yellow-circle {
+  background-color: #faea84;
+  box-shadow: 0 0 50px #eee2af;
+  transition: 0.25s;
+}
