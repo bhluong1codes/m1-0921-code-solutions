@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Red Hat Mono', sans-serif;
+}
+
+section {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.active {
+  border-bottom: 2px solid black;
+}
+
+.right {
+  color: #18cd1b;
+}
+
+.wrong {
+  color: #f80d0d;
+  border-bottom: 2px solid #f80d0d;
+}
