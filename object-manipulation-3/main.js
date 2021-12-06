@@ -28,7 +28,6 @@ function shuffleDeck(deck) {
 }
 
 shuffleDeck(deck);
-console.log(deck);
 
 var players = [
   {
@@ -61,8 +60,6 @@ for (var a = 0; a < players.length; a++) {
   scores.push(players[a].score);
 }
 
-console.log(scores);
-
 var highest = 0;
 for (var b = 0; b < scores.length; b++) {
 
@@ -70,8 +67,6 @@ for (var b = 0; b < scores.length; b++) {
     highest = scores[b];
   }
 }
-
-console.log('highest value:', highest, scores.indexOf(highest));
 
 for (b = 0; b < scores.length; b++) {
   if (scores[b] === highest) {
